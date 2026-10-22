@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d0e">
+  <meta name="description" content="Aakarsh Gupta — AI, product-minded engineering, analytics, and interface work. Portfolio for Ather Energy AI Generalist (Design).">
+  <title>Aakarsh Gupta — AI × Product</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Aakarsh Gupta, home">AG<span>.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <span class="availability"><i></i> Open to opportunities</span>
+      <button class="theme-toggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme"><span class="theme-icon">☼</span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell professional-hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">PROFESSIONAL PORTFOLIO · AI / DATA SCIENCE / PRODUCT</p>
+        <h1>Aakarsh Gupta</h1>
+        <p class="hero-role">Computer Science & Engineering (Data Science) · SRM Institute of Science and Technology</p>
+        <p class="hero-intro">I build AI-powered applications, retrieval systems, analytics tools, and cloud-native deployments. My work focuses on turning data and technical systems into practical, understandable experiences.</p>
+        <div class="hero-cta">
+          <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="assets/Aakarsh-Gupta-Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/Aakarsh34" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/aakarsh-gupta/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:aakarshpsn@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <aside class="professional-panel" aria-label="Professional summary">
+        <p class="eyebrow">PROFILE</p>
+        <div class="profile-stat"><span>Degree</span><strong>B.Tech · CSE (Data Science)</strong></div>
+        <div class="profile-stat"><span>Institution</span><strong>SRM IST</strong></div>
+        <div class="profile-stat"><span>CGPA</span><strong>9.56 / 10</strong></div>
+        <div class="profile-stat"><span>Focus areas</span><strong>GenAI · ML · Cloud · Analytics</strong></div>
+        <div class="profile-stat"><span>Current direction</span><strong>AI Generalist / Design</strong></div>
+      </aside>
+      <div class="hero-footer"><span>PORTFOLIO / 2026</span><span>EXPERIENCE · PROJECTS · EDUCATION</span></div>
+    </section>
+
+    <section class="proof-strip" aria-label="Portfolio highlights">
+      <div><strong>2,000+</strong><span>monthly users · EasyUCEED</span></div>
+      <div><strong>35%</strong><span>reported retrieval relevance improvement · DocuSENSE</span></div>
+      <div><strong>9.56/10</strong><span>CGPA · SRM IST</span></div>
+      <div><strong>3</strong><span>selected projects</span></div>
+    </section>
+
+    <section class="section-shell section-pad" id="projects">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / PROJECTS</p><h2>Selected technical projects.</h2></div>
+        <p class="section-note">Project descriptions and results are based on the supplied résumé and project context.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual proof-image-visual docusense-proof-visual">
+            <img src="assets/docusense-ui-mockups.webp" alt="Four-screen DocuSENSE interface design showing document upload, question answering, retrieved sources, and document insights." loading="lazy" decoding="async" width="1536" height="1024">
+            <div class="docusense-image-label"><strong>Original Unaltered Screenshots</strong><span>DocuSENSE four-screen interface concept · image shown as supplied</span></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>JAN–MAR 2026</span><span>GENAI / INFORMATION RETRIEVAL</span></div>
+            <h3>DocuSENSE</h3>
+            <p class="project-lead">Ask questions across uploaded documents.</p>
+            <p>A Streamlit document Q&A app using retrieval-augmented generation (RAG). It combines FAISS semantic search with BM25 keyword matching, fuses ranked results with Reciprocal Rank Fusion, and reranks candidates with a CrossEncoder before the LLM responds.</p>
+            <p class="result-line"><strong>35% improvement</strong> in answer relevance over single-retrieval baselines, as reported in my résumé.</p>
+            <div class="tag-list"><span>Python</span><span>RAG</span><span>FAISS</span><span>BM25</span><span>CrossEncoder</span><span>Groq LLaMA 3.3 70B</span></div>
+            <div class="project-actions"><button class="text-action" type="button" data-open-image="assets/docusense-ui-mockups.webp" data-image-title="DocuSENSE · four-screen interface">View DocuSENSE interface ↗</button><a class="text-action" href="https://github.com/jeeveshkisalay7/DocuSENSE-AI" target="_blank" rel="noreferrer">View repository ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-extra-project">
+            <div class="visual-topline"><span>CLOUD-NATIVE DELIVERY</span><span>CI/CD</span></div>
+            <div class="extra-project-center"><span class="extra-icon">⇧</span><strong>Cloud-native CI/CD</strong><small>Containerization · Orchestration · Monitoring</small><div class="extra-chip-row"><span>AWS EKS</span><span>Docker</span><span>Jenkins</span><span>Kubernetes</span></div></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>SEP–DEC 2025</span><span>CLOUD / DEVOPS</span></div>
+            <h3>Cloud-native CI/CD pipeline</h3>
+            <p class="project-lead">Automating the path from a code push to a running application.</p>
+            <p>The project automates delivery through Jenkins, Docker, and Kubernetes. The runnable demo is local, with rolling updates, service load balancing, health endpoints, HPA-based CPU scaling, and Prometheus/Grafana monitoring; AWS EKS is also listed in my résumé.</p>
+            <div class="tag-list"><span>AWS EKS</span><span>Docker</span><span>Jenkins</span><span>Kubernetes</span><span>Prometheus</span><span>Grafana</span></div>
+            <div class="project-actions"><a class="text-action" href="https://github.com/Aakarsh34/devops-project" target="_blank" rel="noreferrer">View repository ↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card project-churn">
+          <div class="project-visual visual-churn">
+            <div class="visual-topline"><span>CHURN / MODEL EVALUATION</span><span>04 — MACHINE LEARNING</span></div>
+            <div class="churn-prediction-card">
+              <div class="prediction-card-top"><span class="customer-avatar">JD</span><div class="customer-identity"><b>Customer #10482</b><small>Subscription account · 18 months</small></div><span class="prediction-status">MODEL OUTPUT</span></div>
+              <div class="prediction-result"><div><small>CHURN PREDICTION</small><h4>Likely to churn</h4><p>Based on customer account signals</p></div><div class="risk-score"><strong>78%</strong><span>risk score</span></div></div>
+              <div class="risk-track"><i></i></div>
+              <div class="prediction-factors"><span>Potential risk factors</span><div><b>↓</b> Reduced recent activity</div><div><b>↓</b> Fewer product interactions</div><div><b>↓</b> Support issues reported</div></div>
+              <div class="prediction-footer"><span>Customer retention</span><b>Review account →</b></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>MAY–AUG 2025</span><span>MACHINE LEARNING</span></div>
+            <h3>Customer churn prediction</h3>
+            <p class="project-lead">Using customer data to flag potential churn.</p>
+            <p>Built a Random Forest and Gradient Boosted Trees ensemble on a 10K+ customer dataset. The workflow included exploratory analysis, statistical significance testing across 15+ features, preprocessing, feature engineering, and hyperparameter tuning with cross-validation.</p>
+            <p class="result-line"><strong>91% F1-score</strong> and a reported 22% reduction in false negatives after tuning.</p>
+            <div class="tag-list"><span>Python</span><span>Random Forest</span><span>Gradient Boosting</span><span>Model evaluation</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+      <div class="section-shell section-pad">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / EXPERIENCE</p><h2>Internship & community.</h2></div>
+          <p class="section-note">Professional experience, with the original dashboard artifact included below.</p>
+        </div>
+        <article class="experience-feature">
+          <div class="experience-feature-image">
+            <img src="assets/easyuceed-analytics-dashboard.webp" alt="Original EasyUCEED analytics dashboard screenshot showing score distribution, daily GK spree analytics, mock tests, and past-year papers." loading="lazy" decoding="async" width="1920" height="1080">
+            <span class="visual-caption">ORIGINAL DASHBOARD SCREENSHOT · UNALTERED</span>
+            <button class="text-action image-open-action" type="button" data-open-image="assets/easyuceed-analytics-dashboard.webp" data-image-title="EasyUCEED analytics · original supplied screenshot">View original screenshot ↗</button>
+          </div>
+          <div class="experience-feature-copy">
+            <div class="project-meta"><span>JUNE 2026 — AUGUST 2026</span><span class="status-dot">DATA SCIENCE INTERN</span></div>
+            <h3>Data Science Intern <span>@ EasyUCEED</span></h3>
+            <p>Built a personalized analytics tool serving 2,000+ monthly users, turning UCEED scores and topic-level strengths and weaknesses into clear individual insights.</p>
+            <p>Automated performance review for 100% of student submissions and developed a roadmap workflow that converts topic-level weaknesses into prioritized, topic-level study plans.</p>
+            <div class="evidence-callout"><span class="callout-mark">↗</span><span><b>Visible in the supplied screenshot</b> — score distribution, daily GK streak and average, mock-test progress, and past-year-paper progress.</span></div>
+            <div class="tag-list"><span>Analytics UX</span><span>Personalization</span><span>Performance insights</span><span>Study roadmaps</span></div>
+            <div class="project-actions"><a class="text-action" href="https://easyuceed.com/analytics" target="_blank" rel="noreferrer">Open EasyUCEED analytics ↗</a></div>
+          </div>
+        </article>
+        <div class="experience-list">
+          <article class="experience-row">
+            <div class="experience-date">JUN — AUG 2024</div>
+            <div class="experience-main"><h3>Volunteer <span>@ We Care Foundation</span></h3><p>Mentored underprivileged students through educational support and community outreach initiatives.</p><div class="tag-list"><span>Mentoring</span><span>Communication</span><span>Community</span></div></div>
+            <div class="experience-index">02</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-pad" id="about">
+      <div class="about-grid">
+        <div><p class="eyebrow">04 / ABOUT & APPROACH</p><h2>AI, data, and<br>product engineering.</h2></div>
+        <div class="about-copy">
+          <p>I’m pursuing a B.Tech in Computer Science and Engineering, specializing in Data Science, at SRM Institute of Science and Technology.</p>
+          <p>My projects move between retrieval systems, model evaluation, cloud deployment, and student-facing analytics. Across them, I’m interested in the same question: how do we make a complicated system feel clear and useful to the person on the other side?</p>
+          <p>I approach design as part of engineering: understand the task, make the important information legible, and give people a clear next step.</p>
+          <div class="principles">
+            <div><span>01</span><b>Start with the user’s task</b><p>Understand what someone needs to decide or do.</p></div>
+            <div><span>02</span><b>Make complexity legible</b><p>Use clear structure, useful summaries and meaningful signals.</p></div>
+            <div><span>03</span><b>Build for the next action</b><p>Turn an insight into a practical path forward.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div class="section-shell section-pad">
+        <div class="section-heading"><div><p class="eyebrow">05 / TOOLKIT</p><h2>What I work with.</h2></div></div>
+        <div class="skills-grid">
+          <div class="skill-group"><span>AI & DATA</span><p>RAG · LLMs · NLP · Information Retrieval · Feature Engineering · Data Preprocessing · Model Evaluation</p></div>
+          <div class="skill-group"><span>PROGRAMMING</span><p>Python · SQL · C++</p></div>
+          <div class="skill-group"><span>DEPLOYMENT</span><p>AWS · Docker · Kubernetes · Jenkins · CI/CD · Streamlit</p></div>
+          <div class="skill-group"><span>FOUNDATIONS</span><p>Data Structures & Algorithms · OOP · DBMS</p></div>
+          <div class="skill-group"><span>TOOLS</span><p>Git · GitHub</p></div>
+          <div class="skill-group"><span>RECOGNITION</span><p>BITS TechXcelerate finalist · GitHub Copilot Certification (2026) · NPTEL certifications</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell section-pad education-section">
+      <div class="education-copy"><p class="eyebrow">06 / EDUCATION</p><h2>Grounded in fundamentals.</h2><h3>SRM Institute of Science and Technology</h3><p>B.Tech, Computer Science & Engineering (Data Science)<br>Aug 2023 — Jun 2027</p><div class="education-score"><strong>9.56<span>/10</span></strong><small>CGPA</small></div></div>
+      <div class="recognition"><p class="eyebrow">CERTIFICATIONS & ACHIEVEMENTS</p><ul><li>NPTEL Certified: Java Programming</li><li>NPTEL Certified: Database Management Systems</li><li>NPTEL Certified: Introduction to Machine Learning</li><li>MATLAB Onramp and Image Processing Onramp</li><li>GitHub Copilot Certification, 2026</li><li>Finalist, BITS TechXcelerate Hackathon</li><li>Represented Gurgaon in the DLF U-13 District Football Tournament</li></ul></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner">
+        <p class="eyebrow">07 / CONNECT</p>
+        <h2>Connect<span style="color:var(--accent)">.</span></h2>
+        <div class="contact-links"><a href="mailto:aakarshpsn@gmail.com">Email ↗</a><a href="https://www.linkedin.com/in/aakarsh-gupta/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/Aakarsh34" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        <footer><span>© <span id="year">2026</span> Aakarsh Gupta</span><span>BUILT WITH CARE · HTML / CSS / JS</span><a href="#top">BACK TO TOP ↑</a></footer>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="image-dialog" aria-label="Project image preview">
+    <div class="dialog-toolbar"><span class="dialog-title">Project image preview</span><button type="button" class="dialog-close" aria-label="Close image">×</button></div>
+    <img alt="Project image preview" decoding="async">
+  </dialog>
+</body>
+</html>
